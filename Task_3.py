@@ -17,7 +17,7 @@ def check_num():
 def palindrom():
     count = 0
     num = check_num()
-    if num < 0:
+    if num < 0 or num == 196:
         print('Error')
     else:
         while True:
